@@ -1,0 +1,14 @@
+{
+  "name": "test1-for-source-connect",
+  "config": {
+    "connector.class": "io.confluent.connect.jdbc.JdbcSourceConnector",
+    "connection.url": "jdbc:mysql://localhost:3306/test",
+    "connection.user": "root",
+    "connection.password": "1219",
+    "mode": "incrementing",
+    "incrementing.column.name": "id",
+    "table.whitelist": "test.users",
+    "topic.prefix": "example_topic_",
+    "tasks.max": "1"
+  }
+}

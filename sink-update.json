@@ -1,0 +1,11 @@
+{
+  "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
+  "connection.url": "jdbc:mysql://127.0.0.1:3306/test",
+  "connection.user": "root",
+  "connection.password": "1219",  
+  "auto.create": "true",
+  "auto.evolve": "true",
+  "delete.enabled": "false",
+  "tasks.max": "1",
+  "topics": "example_topic_users"
+}
